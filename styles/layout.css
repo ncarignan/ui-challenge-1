@@ -4,14 +4,20 @@ body{
 #a{
   height:75px;
   border: solid black 1px;
+  line-height: 75px;
+  background-color: #D6732F;
 }
 #b{
   height: 150px;
   border: solid black 1px;
+  line-height:150px;
+  background-color:#cdcdcd;
 }
 #c, #d{
   height:125px;
+  line-height:125px;
   border: solid black 1px;
+  background-color: #eddbcd;
 }
 #efgh{
   /*height: 65.1vh;*/
@@ -20,37 +26,52 @@ body{
 #e, #f, #g, #h{
   border: solid black 1px;
   height: 32.55vh;
+  line-height:32.55vh;
   width: 50%;
   float: left;
+  background-color: #D6732F;
+}
+#e, #h{
+  background-color: #000;
+  color: #D6732F;
 }
 #i{
   height: 80px;
+  line-height:80px;
+  width: 100%;
   border: solid black 1px;
   float:left;
+  background-color: #eddbcd;
 }
 
 @media screen and (min-width: 800px){
 #a{
   height:100px;
+  line-height:100px;
 }
 #b{
   float: left;
   height:600px;
+  line-height:600px;
   width: 20.833333333vw;
 }
 #c, #d{
   float:left;
   height:200px;
+  line-height:200px;
   width: 39.583333333vw;
 }
 #e, #f, #g, #h{
 float:left;
 width:19.791666666vw;
 height:250px;
+line-height:250px;
 }
 #i{
   float:left;
   width:79.166666666vw;
   height:150px;
+  line-height:150px;
+  back
 }
 }
