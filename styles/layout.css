@@ -1,31 +1,56 @@
 body{
   width:100%;
 }
-nav{
+#a{
   height:75px;
-  border: solid red 1px;
+  border: solid black 1px;
 }
 #b{
   height: 150px;
-  border: solid red 1px;
+  border: solid black 1px;
 }
 #c, #d{
   height:125px;
-  border: solid red 1px;
+  border: solid black 1px;
 }
 #efgh{
-  height: 500px;
+  /*height: 65.1vh;*/
 }
+/* height of the e f g h sections is based on viewport height to keep them responsive*/
 #e, #f, #g, #h{
-  border: solid red 1px;
-  height: 250px;
+  border: solid black 1px;
+  height: 32.55vh;
   width: 50%;
   float: left;
 }
-
+#i{
+  height: 80px;
+  border: solid black 1px;
+  float:left;
 }
-footer section{
-  height: 800px;
-  border: solid red 1px;
 
+@media screen and (min-width: 800px){
+#a{
+  height:100px;
+}
+#b{
+  float: left;
+  height:600px;
+  width: 20.833333333vw;
+}
+#c, #d{
+  float:left;
+  height:200px;
+  width: 39.583333333vw;
+}
+#e, #f, #g, #h{
+float:left;
+width:19.791666666vw;
+height:250px;
+}
+#i{
+  float:left;
+  width:79.166666666vw;
+  height:150px;
+}
 }
