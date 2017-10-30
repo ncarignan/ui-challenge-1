@@ -1,0 +1,31 @@
+body{
+  width:100%;
+}
+nav{
+  height:75px;
+  border: solid red 1px;
+}
+#b{
+  height: 150px;
+  border: solid red 1px;
+}
+#c, #d{
+  height:125px;
+  border: solid red 1px;
+}
+#efgh{
+  height: 500px;
+}
+#e, #f, #g, #h{
+  border: solid red 1px;
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+}
+footer section{
+  height: 800px;
+  border: solid red 1px;
+
+}
