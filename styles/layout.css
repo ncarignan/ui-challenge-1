@@ -45,6 +45,10 @@ body{
 }
 
 @media screen and (min-width: 800px){
+body{
+  max-width: 960px;
+  margin:auto;
+}
 #a{
   height:100px;
   line-height:100px;
