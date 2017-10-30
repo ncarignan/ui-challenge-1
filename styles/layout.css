@@ -53,23 +53,23 @@ body{
   float: left;
   height:600px;
   line-height:600px;
-  width: 20.833333333vw;
+  width: 20.833333333%;
 }
 #c, #d{
   float:left;
   height:200px;
   line-height:200px;
-  width: 39.583333333vw;
+  width: 39.583333333%;
 }
 #e, #f, #g, #h{
 float:left;
-width:19.791666666vw;
+width:19.791666666%;
 height:250px;
 line-height:250px;
 }
 #i{
   float:left;
-  width:79.166666666vw;
+  width:79.166666666%;
   height:150px;
   line-height:150px;
   back
